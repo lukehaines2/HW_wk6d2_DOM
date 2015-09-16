@@ -17,12 +17,12 @@ s3 = Stock.create(name: 'Microsoft', cash: 1500)
 s4 = Stock.create(name: 'Blackberry', cash: 200)
 s5 = Stock.create(name: 'General Assembly', cash: 100)
 
-c1 = Client.create(name: 'Barry Grape', age: 57)
-c2 = Client.create(name: 'Henry Duffenberg', age: 23)
-c3 = Client.create(name: 'Roger Tollington', age: 30)
-c4 = Client.create(name: 'Nigella Appelbury', age: 76)
-c5 = Client.create(name: 'Isabella Diaz-Cortez', age: 44)
+c1 = Client.create(name: 'Barry Grape', price: 50)
+c2 = Client.create(name: 'Henry Duffenberg', price: 10)
+c3 = Client.create(name: 'Roger Tollington', price: 20)
+c4 = Client.create(name: 'Nigella Appelbury', price: 30)
+c5 = Client.create(name: 'Isabella Diaz-Cortez', price: 90)
 
-h1.Owner.create()
+x1.Client.create()
 
-puts "seeded! with #{Establishment.all.count} Establishments"
+puts "seeded! with #{Stock.all.count} Stocks"
